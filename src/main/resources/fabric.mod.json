@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "customtoolsmod",
+    "version": "1.0.0",
+    "name": "Custom Tools Mod",
+    "description": "A mod that adds custom tools and blocks for a 1v1 mining competition.",
+    "authors": [
+        "giuseppegioliffi91"
+    ],
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.giuseppegioliffi91.customtoolsmod.CustomToolsMod"
+        ]
+    },
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.14.0",
+        "minecraft": "1.20.4",
+        "fabric-api": "*"
+    }
+}
